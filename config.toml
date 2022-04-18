@@ -1,0 +1,28 @@
+[[instances]]
+host = "localhost"
+port = 4444
+
+    [[instances.vlc_sources]]
+    name = "vlc source_TA"
+    scene_name = "OMSA TA"
+    watchdog_url = "https://www.3omedia.sk/ta.php"
+    sched = "10:00, 17:00"
+
+    [[instances.vlc_sources]]
+    name = "OMSA TS"
+    scene_name = "OMSA TS"
+    watchdog_url = "http://example.com/kostol?kostol=ts"
+    sched = "10:00, 17:00"
+
+    
+
+[[instances]]
+host = "localhost"
+port = 4455
+
+    [[instances.vlc_sources]]
+    name = "OMSA HA"
+    scene_name = "OMSA HA"
+    watchdog_url = "http://example.com/kostol?kostol=ha"
+    sched = "10:00, 12:00"
+

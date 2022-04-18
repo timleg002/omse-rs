@@ -1,0 +1,6 @@
+/.vagrant
+/target
+
+*.profraw
+.env
+Cargo.lock
